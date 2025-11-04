@@ -16,3 +16,11 @@ echo "\n";
 echo "Is Name Null? : ";
 var_dump(is_null($name));
 echo "\n";
+
+$contoh = "Dito";
+unset($contoh);
+
+$contoh = "dito";
+$contoh = null;
+
+var_dump(isset($contoh));
