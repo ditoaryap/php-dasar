@@ -1,6 +1,6 @@
 <?php
 
-$nilai = "C";
+$nilai = "D";
 
 switch ($nilai) {
     case "A":
@@ -12,4 +12,6 @@ switch ($nilai) {
     case "C":
         echo "Niali lu C ";
         break;
+    default:
+        echo "ya ga tau ya";
 }
