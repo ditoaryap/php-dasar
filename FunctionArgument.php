@@ -1,9 +1,9 @@
 <?php
 
-function sayHello($name)
+function sayHello($firstName, $lastName = "DEFAULT")
 {
-    echo "Hello $name" . PHP_EOL;
+    echo "Hello $firstName $lastName" . PHP_EOL;
 }
 
 sayHello("Dito");
-sayHello("arya");
+sayHello("arya", "test");
