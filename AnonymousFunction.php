@@ -22,3 +22,12 @@ $filterFunction = function (string $name): string {
 };
 
 sayGoodBye("Dito", $filterFunction);
+
+$firstName = "Dito";
+$lastName = "Aryaputra";
+
+$sayHelloDito = function () use ($firstName, $lastName) {
+    echo "Hello $firstName $lastName" . PHP_EOL;
+};
+
+$sayHelloDito();
