@@ -34,3 +34,4 @@ var_dump($dito);
 
 var_dump($dito["name"]);
 var_dump($dito["address"]["country"]);
+var_dump(count($names));
