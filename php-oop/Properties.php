@@ -5,7 +5,7 @@ require_once "data/Person.php";
 $person = new Person();
 $person->name = "Dito";
 $person->address = "Depok";
-$person->country = "Indonesia";
+// $person->country = "Indonesia";
 
 var_dump($person);
 
@@ -16,6 +16,9 @@ echo "Name = $person->country" . PHP_EOL;
 $person2 = new Person();
 $person2->name = "Aji";
 $person2->address = "asdasd";
-$person2->country = "zxccbxvvcb";
+// $person2->country = "zxccbxvvcb";
 
 var_dump($person2);
+
+// error
+// $person2->name = [];
