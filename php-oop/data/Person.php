@@ -2,6 +2,8 @@
 
 class Person
 {
+    const AUTHOR = "Dito Aryaputra Ramadhani";
+
     var string $name;
     var ?string $address = null;
     var string $country = "Indonesia";
