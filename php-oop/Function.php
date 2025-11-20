@@ -18,5 +18,8 @@ $dito->name = "Dito";
 $dito->sayHello("Dito");
 
 $joko = new Person();
-$joko->name = "Dito";
+$joko->name = "Joko";
 $joko->sayHello(null);
+
+$dito->info();
+$joko->info();
