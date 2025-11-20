@@ -13,6 +13,10 @@ require_once "data/Person.php";
 // $dito->info();
 // $joko->info();
 
-$person = new Person();
+$dito = new Person();
+$dito->name = "Dito";
+$dito->sayHello("Dito");
 
-$person->sayHello("Dito");
+$joko = new Person();
+$joko->name = "Dito";
+$joko->sayHello(null);
