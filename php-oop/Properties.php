@@ -17,3 +17,7 @@ $person2 = new Person();
 $person2->name = "Budi";
 $person2->address = "Jakarta";
 $person2->country = "Indonesia";
+
+echo "Name : $person2->name" . PHP_EOL;
+echo "Address : $person2->address" . PHP_EOL;
+echo "Country : $person2->country" . PHP_EOL;
