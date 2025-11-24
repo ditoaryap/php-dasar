@@ -20,3 +20,7 @@ class FrontendProgrammer extends Programmer
 class Company {
     public Programmer $programmer;
 }
+
+function sayHelloProgrammer( Programmer $programmer) {
+    echo "Hello Programmer $programmer->name".PHP_EOL;
+}
